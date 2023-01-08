@@ -1,0 +1,19 @@
+img{
+    width: 100%;
+}
+
+.temp{
+    background-color: rgba(255, 255, 255, .9) !important;
+}
+
+.navbar-brand{
+    color:black !important;
+}
+
+.nav-link{
+    color: black !important;
+}
+
+.nav-link:hover{
+    color: rgb(79, 77, 77) !important;
+}

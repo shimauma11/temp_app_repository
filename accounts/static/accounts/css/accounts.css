@@ -1,0 +1,25 @@
+img {
+    width: 100%;
+}
+
+.main_container {
+    width: 70%;
+    margin: 180px auto 50px auto;
+}
+
+.temp {
+    background-color: rgba(255, 255, 255, .9) !important;
+}
+
+/* フォーム関係 */
+.self-form-control {
+    margin-bottom: 30px;
+}
+
+.adjust_size_form {
+    margin: 20px auto 100px auto !important;
+}
+
+.guide_signup_box {
+    text-align: center;
+}

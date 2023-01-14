@@ -1,0 +1,5 @@
+<form method="post" class="adjust_size_form">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input class="btn btn-primary" type="submit" value="{{ submit_label }}">
+</form>

@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% load static %}
+{% block link_css %}
+<link href="{% static 'welcome/css/base.css' %}" rel="stylesheet">
+{% endblock %}
+{% block title %}{% endblock %}
+{% block main %}
+<h1>新規登録</h1>
+{% include "_form.html" with submit_label="登録" %}
+{% endblock %}

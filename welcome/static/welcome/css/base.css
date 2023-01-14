@@ -1,19 +1,58 @@
+/* 共通部分　*/
+
 img{
     width: 100%;
+}
+
+.main_container{
+    width: 70%;
+    margin: 180px auto 50px auto;
 }
 
 .temp{
     background-color: rgba(255, 255, 255, .9) !important;
 }
 
+/* ナビゲーション */
 .navbar-brand{
     color:black !important;
 }
 
 .nav-link{
     color: black !important;
+    margin-left: 30px;
 }
 
 .nav-link:hover{
     color: rgb(79, 77, 77) !important;
 }
+
+
+/* カード類 */
+.col-card{
+    margin: 0 auto;
+}
+
+.cards-container{
+    margin: 30px;
+}
+
+
+/* フォーム関係 */
+.self-form-control{
+    margin-bottom: 30px;
+}
+
+.adjust_size_form {
+    margin: 20px auto 100px auto !important;
+}
+
+.guide_signup_box{
+    text-align: center;
+}
+
+.guide_signup{
+    text-decoration: none;
+}
+
+

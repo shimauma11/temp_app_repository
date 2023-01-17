@@ -1,14 +1,12 @@
-img {
-    width: 100%;
-}
-
+/* 共通部分 */
 .main_container {
     width: 70%;
     margin: 180px auto 50px auto;
 }
 
-.temp {
-    background-color: rgba(255, 255, 255, .9) !important;
+/* welcomeのみ */
+img {
+    width: 100%;
 }
 
 /* フォーム関係 */

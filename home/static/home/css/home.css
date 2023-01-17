@@ -1,0 +1,10 @@
+/* 共通部分 */ 
+.main_container {
+    width: 70%;
+    margin: 180px auto 50px auto;
+} 
+
+/* homeのみ */
+.nav-item{
+    margin-left: 10px !important;
+}

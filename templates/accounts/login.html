@@ -29,7 +29,7 @@
 </nav>
 {% endblock %}
 {% block main %}
-<h1>新規登録</h1>
-{% include "_form.html" with submit_label="登録" %}
-<a href="{% url 'accounts:login' %}">ログインはこちら</a>
+<h1>ログイン</h1>
+{% include "_form.html" with submit_label="ログイン" %}
+<a href="{% url 'accounts:signup' %}">新規登録はこちら</a>
 {% endblock %}
